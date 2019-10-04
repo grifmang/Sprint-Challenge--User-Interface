@@ -75,7 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -143,4 +143,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 30px 40px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#about-blurb {
+    display:flex;
+    flex-direction: column;
 }
