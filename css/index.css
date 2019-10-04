@@ -160,4 +160,44 @@ nav a {
 #about-blurb {
     display:flex;
     flex-direction: column;
+    margin: 20px;
+}
+
+hr {
+    border-top: dashed 1px;
+}
+
+#bottom-blurb {
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+button {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.grid-box {
+    width: 48%;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.grid-box h2 {
+    margin-top: 15px;
+}
+
+.grid-box hr {
+    margin-top: 20px;
+    width: 100%;
 }
